@@ -1,6 +1,9 @@
+import { redirect } from "next/navigation";
 
 
 const page = () => {
+    const userProfile = null;
+    if(userProfile === null ) redirect('profile')
     return (
         <div>
             <h2 className="text-lg font-bold">Hello This is Account Page</h2>
