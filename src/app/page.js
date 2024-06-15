@@ -16,7 +16,7 @@ export default function Home() {
       <Link href={'/products'} className="font-bold text-lg">Products Page</Link>
       <Link href={'/accounts'} className="font-bold text-lg">Accoutns Page</Link>
       <h2 className={`mb-3 text-2xl font-semibold`}>
-        Alternative Ways of Navigation
+        Alternative Ways of Navigation use Router
       </h2>
       <button onClick={handleNaviage}>Product Page</button>
     </main>
