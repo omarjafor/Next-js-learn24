@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 
 
 const page = () => {
-    const userProfile = null;
+    const userProfile = undefined;
     if(userProfile === null ) redirect('profile')
     return (
         <div>
